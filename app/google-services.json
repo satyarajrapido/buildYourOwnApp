@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "243393562770",
+    "project_id": "guess-51d6a",
+    "storage_bucket": "guess-51d6a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243393562770:android:09add3890b9399a3247e4b",
+        "android_client_info": {
+          "package_name": "com.example.guess"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmZO8r7PcLtzjGtwVWrhFPtrrDhZg9VQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
