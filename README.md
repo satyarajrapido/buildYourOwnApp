@@ -10,33 +10,33 @@ Guess is a multiplayer drawing and guessing game inspired by Skribbl. Players ca
 
 ## Features
 
-🎨 Live Drawing: One player draws while others guess in real time.
+🎨 **Live Drawing**: One player draws while others guess in real time.
 
-💬 Real-Time Chat: Integrated chat for communication.
+💬 **Real-Time Chat**: Integrated chat for communication.
 
-🏆 Competitive Gameplay: The fastest correct guess wins the round.
+🏆 **Competitive Gameplay**: The fastest correct guess wins the round.
 
-🔄 Seamless Navigation: Smooth transitions with Compose Navigation.
+🔄 **Seamless Navigation**: Smooth transitions with Compose Navigation.
 
 ## Tech Stack
 
 ### The app is built using modern Android development tools:
 
-Jetpack Compose for UI
+**Jetpack Compose** for UI
 
-Compose Navigation for seamless screen transitions
+**Compose Navigation** for seamless screen transitions
 
-Coroutines with Flows for handling asynchronous tasks efficiently
+**Coroutines with Flows** for handling asynchronous tasks efficiently
 
-Hilt for Dependency Injection
+**Hilt** for Dependency Injection
 
-Stream Chat SDK for real-time chat between players
+**Stream Chat SDK** for real-time chat between players
 
-Firebase Realtime Database for live drawing broadcasts
+**Firebase Realtime Database** for live drawing broadcasts
 
-Sketchbook Library to create canvas for drawing
+**Sketchbook Library** to create canvas for drawing
 
-The app follows MVVM clean architecture
+The app follows **MVVM** clean architecture
 
 ## Challenges Faced
 
