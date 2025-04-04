@@ -28,17 +28,21 @@ Compose Navigation for seamless screen transitions
 
 Coroutines with Flows for handling asynchronous tasks efficiently
 
+Hilt for Dependency Injection
+
 Stream Chat SDK for real-time chat between players
 
 Firebase Realtime Database for live drawing broadcasts
+
+Sketchbook Library to create canvas for drawing
+
+The app follows MVVM clean architecture
 
 ## Challenges Faced
 
 Integrating Stream Chat SDK into the game.
 
 Implementing real-time drawing synchronization with Firebase.
-
-Managing time constraints while ensuring smooth gameplay.
 
 ## Limitations
 
