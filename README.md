@@ -1,3 +1,7 @@
+# Missing deliverables
+- A working APK file - Mandatory ✅: A compiled APK we can install and test.
+- A video demo - Mandatory ✅: A short video showcasing all the flows of your app.
+
 # AutoZen - Smart Mode Switching
 
 AutoZen is an Android app that automatically switches your phone's sound mode (Silent/Vibrate) based on your location. Users can save specific locations with a defined radius, and the app will adjust the mode when they enter or leave the area. This helps maintain a distraction-free environment in places like offices, libraries, or meetings.
