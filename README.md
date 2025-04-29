@@ -1,3 +1,14 @@
+# PR Review
+
+You’ve built an interesting game application that works well. However, there is significant scope for code improvements. If you can accommodate the suggested changes, we can consider you for further rounds:
+- Follow the Clean Architecture pattern properly.
+- Ensure the ViewModel interacts only with UseCases.
+- Introduce the Repository pattern.
+- Ensure UseCases interact only with the Repository.
+- Ensure the Repository interacts only with DataSources.
+
+
+
 # Guess - Multiplayer Drawing & Guessing Game
 
 APK : https://drive.google.com/file/d/1rftNkSC9nt3oGRk3gR41hfnjjtZpzXpZ/view?usp=sharing
