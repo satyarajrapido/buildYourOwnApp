@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     id("com.google.devtools.ksp")
     kotlin("plugin.serialization") version "2.0.21"
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -44,6 +45,8 @@ android {
 }
 
 dependencies {
+    /** firebase dependencies**/
+    implementation(libs.firebase.database)
 
     /** Room dependencties **/
     val room_version = "2.7.1"
@@ -58,6 +61,13 @@ dependencies {
     /** Navigation dependecies **/
     val nav_version = "2.8.9"
     implementation("androidx.navigation:navigation-compose:$nav_version")
+
+    /** datastore dependencies **/
+    implementation("androidx.datastore:datastore:1.0.0")
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+    /** Gson dependencies     check this  for latest versions https://github.com/google/gson   **/
+    implementation("com.google.code.gson:gson:2.13.1")
+
 
 
 
