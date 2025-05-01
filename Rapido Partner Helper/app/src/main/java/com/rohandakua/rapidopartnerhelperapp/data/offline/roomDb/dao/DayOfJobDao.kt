@@ -12,8 +12,8 @@ interface DayOfJobDao {
     @Query( "Select * From day_of_job")
     fun getAllDays(): List<DayOfJob?>
 
-    @Query("Select * From day_of_job Where rapido_partner_id = :rapido_partner_id And day_of_job = :day_of_job")
-    fun getDayById(rapido_partner_id : Int , day_of_job : Date ): DayOfJob?
+    @Query("Select * From day_of_job Where  day_of_job = :day_of_job")
+    fun getDayById(day_of_job : String ): DayOfJob?
 
     @Insert
     fun insertDay(dayOfJob: DayOfJob)
@@ -21,6 +21,6 @@ interface DayOfJobDao {
     @Update
     fun updateDay(dayOfJob: DayOfJob)
 
-    
+
 
 }

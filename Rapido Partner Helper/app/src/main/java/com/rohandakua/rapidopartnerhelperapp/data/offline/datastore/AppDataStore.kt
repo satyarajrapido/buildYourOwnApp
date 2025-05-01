@@ -35,7 +35,7 @@ class AppDataStore (
             }
         }
     }
-    suspend fun clearUser() {
+    suspend fun clearUser(){
         context.appDataStore.edit { preferences ->
             preferences.remove(USER_KEY)
         }

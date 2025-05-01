@@ -10,7 +10,7 @@ import java.util.Date
 )
 data class DayOfJob(
     @ColumnInfo(name = "rapido_partner_id") val rapido_partner_id: Int,
-    @ColumnInfo(name = "day_of_job") val day_of_job: Date,
+    @ColumnInfo(name = "day_of_job") val day_of_job: String,  //"dd-MM-yyyy"
 
     @ColumnInfo(name = "total_distance_covered") val total_distance_covered: Double?,
     @ColumnInfo(name = "total_earnings") val total_earnings: Double?,
